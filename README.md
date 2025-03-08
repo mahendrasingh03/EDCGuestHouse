@@ -8,7 +8,6 @@
 
 This project is deployed on Render at
 
-
 [edcguesthouse.onrender.com](edcguesthouse.onrender.com)
 
 # Figma Design Landing Page
@@ -33,51 +32,53 @@ A project for digitalizing the process of GuestHouse booking in MNNIT Allahabad 
 
 1. **Clone the repository**:
 
-    ```
-    git clone https://github.com/mr-anubhavtiwary/EDCGuestHouse
-    cd backend
-    npm i
-    cd ..
-    cd frontend
-    npm i
-    ```
+   ```
+   git clone https://github.com/mr-anubhavtiwary/EDCGuestHouse
+   cd backend
+   npm i
+   cd ..
+   cd frontend
+   npm i
+   ```
 
 2. **Run Application**
 
-    1. Run frontend
+   1. Run frontend
 
-    ```
-    npm run dev
-    ```
+   ```
+   npm run dev
+   ```
 
-    2. Run backend
+   2. Run backend
 
-    ```
-    npm start
-    ```
+   ```
+   npm start
+   ```
 
 # Environment Setup
 
 1. Backend Environment variables
-    ```
-    PORT=<Port no>
-    MONGO_URI=<mongo connection url>
-    JWT_SECRET=<jwt secret>
-    STRIPE_SECRET_KEY=<stripe secret key>
-    EMAIL_USER=<email>
-    EMAIL_PASS=<password>
-    OAUTH_CLIENT_ID=<oauth2.0 client id>
-    OAUTH_CLIENT_SECRET=<oauth2.0 client secret>
-    OAUTH_REFRESH_TOKEN=<oauth2.0 refresh token>
 
-    ```
+   ```
+   PORT=<Port no>
+   MONGO_URI=<mongo connection url>
+   JWT_SECRET=<jwt secret>
+   STRIPE_SECRET_KEY=<stripe secret key>
+   EMAIL_USER=<email>
+   EMAIL_PASS=<password>
+   OAUTH_CLIENT_ID=<oauth2.0 client id>
+   OAUTH_CLIENT_SECRET=<oauth2.0 client secret>
+   OAUTH_REFRESH_TOKEN=<oauth2.0 refresh token>
+
+   ```
+
 2. Frontend Environment variables
-    ```
-    VITE_STRIPE_PUB_KEY=<stripe public key>
-    VITE_HOST=<localhost>
-    ```
+   ```
+   VITE_STRIPE_PUB_KEY=<stripe public key>
+   VITE_HOST=<localhost>
+   ```
 
 # contact
-    Email: mr.shivamtiwary@gmail.com
-    Github: https://github.com/mr-anubhavtiwary
 
+    Email: mahi07ms03@gmail.com
+    Github: https://github.com/mahendrasingh03
